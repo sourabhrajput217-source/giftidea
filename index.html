@@ -257,11 +257,12 @@ Thank you meri life mein aane ke liye, Tum meri sirf girlfriend nahi... meri dua
     let mailBox = document.querySelector('.mail')
     let boxmail = document.querySelector('.boxMail')
     var close = document.querySelector('.fa-xmark')
-    mailBox.onclick = function () {
-        mailBox.classList.toggle('active')
-        boxmail.classList.add('active')
-    }
+mailBox.onclick = function () {
+    document.querySelector(".qr-box").style.display = "none";
 
+    mailBox.classList.toggle('active')
+    boxmail.classList.add('active')
+}
     close.addEventListener('click', function () {
         boxmail.classList.remove('active')
     })
