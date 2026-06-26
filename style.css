@@ -856,7 +856,7 @@ body {
     width: 50%;
     height: 100%;
     background: linear-gradient(to right, #FF7882, #FF7882 63%);
-    color: white;
+    color: rgb(247, 244, 244);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -953,6 +953,7 @@ body {
     text-indent: 20px;
     font-size: 22px;
     opacity: 0;
+     color: #000; 
 }
 .boxMail .boxMail-container .card2:hover h2{
     animation: texth2 2s forwards;
